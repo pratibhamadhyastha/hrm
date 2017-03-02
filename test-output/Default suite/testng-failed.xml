@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="browser" value="not-found"/>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.hrm.scripts.VerifyDuplicateOption">
+        <methods>
+          <include name="initReport"/>
+          <include name="preCondition"/>
+          <include name="testVerifyDuplicateOption"/>
+          <include name="initGlobalVar"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.VerifyDuplicateOption -->
+      <class name="com.hrm.scripts.CreateEmployee">
+        <methods>
+          <include name="testCreateEmployee"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.CreateEmployee -->
+      <class name="com.hrm.scripts.DeleteEmployee">
+        <methods>
+          <include name="testDeleteEmployee"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.DeleteEmployee -->
+      <class name="com.hrm.scripts.TestJobListBoxIsSorted">
+        <methods>
+          <include name="testJobListBoxIsSorted"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestJobListBoxIsSorted -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

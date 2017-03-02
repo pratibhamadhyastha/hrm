@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.hrm.scripts.CreateEmployee">
+        <methods>
+          <include name="preCondition"/>
+          <include name="initReport"/>
+          <include name="closeApplication"/>
+          <include name="publishReport"/>
+          <include name="initGlobalVar"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.CreateEmployee -->
+      <class name="com.hrm.scripts.VerifyDuplicateOption">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.VerifyDuplicateOption -->
+      <class name="com.hrm.scripts.TestJobListBoxIsSorted">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestJobListBoxIsSorted -->
+      <class name="com.hrm.scripts.DeleteEmployee">
+        <methods>
+          <include name="preCondition"/>
+          <include name="closeApplication"/>
+          <include name="testDeleteEmployee"/>
+          <include name="initApplication"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.DeleteEmployee -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
